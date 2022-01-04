@@ -1,103 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>David Kelly Web Developer</title>
+    <meta name="title" content="David Kelly - Web Developer" />
+    <meta
+      name="description"
+      content="A web developer in Dublin, Ireland.
 
-<!-- Primary Meta Tags -->
-<title>David Kelly Web Developer</title>
-<meta name="title" content="David Kelly - Web Developer">
-<meta name="description" content="An accessibility focused web developer in Dublin, Ireland.
+HTML, CSS, JavaScript, Node.js and Python."
+    />
 
-HTML, CSS, JavaScript, Node.js and Python.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.davidindub.com/" />
+    <meta property="og:title" content="David Kelly - Web Developer" />
+    <meta
+      property="og:description"
+      content="A web developer in Dublin, Ireland.
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.davidindub.com/">
-<meta property="og:title" content="David Kelly - Web Developer">
-<meta property="og:description" content="An accessibility focused web developer in Dublin, Ireland.
+HTML, CSS, JavaScript, Node.js and Python."
+    />
+    <meta property="og:image" content="/socialthumb.jpg" />
 
-HTML, CSS, JavaScript, Node.js and Python.">
-<meta property="og:image" content="/socialthumb.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.davidindub.com/" />
+    <meta property="twitter:title" content="David Kelly - Web Developer" />
+    <meta
+      property="twitter:description"
+      content="A web developer in Dublin, Ireland.
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://www.davidindub.com/">
-<meta property="twitter:title" content="David Kelly - Web Developer">
-<meta property="twitter:description" content="An accessibility focused web developer in Dublin, Ireland.
+HTML, CSS, JavaScript, Node.js and Python."
+    />
+    <meta property="twitter:image" content="/socialthumb.jpg" />
 
-HTML, CSS, JavaScript, Node.js and Python.">
-<meta property="twitter:image" content="/socialthumb.jpg">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,600&display=swap&text=Godmrningafteaven%2C"
+      rel="stylesheet"
+    />
+    <title>David Kelly</title>
+  </head>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,600&display=swap&text=Godmrningafteaven%2C" rel="stylesheet">
-  <title>David Kelly</title>
-</head>
+  <body>
+    <main>
+      <div class="container text-center mt-5">
+        <div
+          id="image-carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img
+                src="me1.jpg"
+                class="d-block mx-auto mb-4 rounded-circle img-fluid"
+                alt="Headshot of David Kelly"
+                width="250"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="me2.jpg"" class=" d-block mx-auto mb-4 rounded-circle
+              img-fluid" alt="Headshot of David Kelly" width="250">
+            </div>
+            <div class="carousel-item active">
+              <img src="me.jpg"" class=" d-block mx-auto mb-4 rounded-circle
+              img-fluid" alt="Headshot of David Kelly" width="250">
+            </div>
+          </div>
+        </div>
 
-<body>
-  <main>
-
-    <div class="px-4 py-5 my-5 text-center">
-      <img class="d-block mx-auto mb-4 rounded-circle img-fluid" src="/me.jpg" alt="Headshot of David Kelly" width="250">
-      <h1 class="display-1" id="greeting">Hello,</h1>
-      <div class="col-lg-6 mx-auto">
-          <p class="lead mt-4 mb-4">I'm David, a web developer in Dublin, Ireland.
-              <br><br>
-              I take a particular interest in accessibility and user privacy.
-            <br><br>
-              I work with HTML, CSS, JavaScript, Node.js and Python.
-            <br><br>
-          Please check out my work below, I would love to hear from you.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
-          <a href="https://www.linkedin.com/in/davidkellydublin/" class="btn btn-outline-dark btn-lg px-4 me-sm-3"><i class="bi bi-linkedin"></i> My LinkedIn Profile</a>
-          <a href="https://www.github.com/davidindub" class="btn btn-outline-secondary btn-lg px-4"><i class="bi-github"></i> My GitHub Profile</a>
+        <h1 class="display-1" id="greeting">Hello,</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mt-4 mb-4">
+            I'm David, a web developer in Dublin, Ireland. <br /><br />
+            I am currently enrolled in the Full Stack Software Developer course
+            at Code Institute.
+            <br /><br />
+            Please check out my profiles below.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
+            <a
+              href="https://www.linkedin.com/in/davidkellydublin/"
+              class="btn btn-outline-primary btn-lg px-4 me-sm-3"
+              ><i class="bi bi-linkedin"></i> My LinkedIn Profile</a
+            >
+            <a
+              href="https://www.github.com/davidindub"
+              class="btn btn-outline-secondary btn-lg px-4"
+              ><i class="bi-github"></i> My GitHub Profile</a
+            >
+          </div>
         </div>
       </div>
+    </main>
+
+    <footer class="footer mt-auto text-center">
+      <div class="container">
+        <span class="text-dark"
+          >&copy <span id="year"></span> David Kelly.
+          <a
+            href=""
+            class="text-dark"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#privacyPolicy"
+            aria-controls="privacyPolicy"
+            >Privacy Policy.</a
+          ></span
+        >
+      </div>
+    </footer>
+
+    <div
+      class="offcanvas offcanvas-bottom"
+      tabindex="-1"
+      id="privacyPolicy"
+      aria-labelledby="privacyPolicyLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+          Privacy Policy
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body small">
+        <h6>Personal Data</h6>
+        While using this page, I will not ask you to provide any personal data
+        or collect any personal data from you.
+        <br />
+        <h6 class="mt-4">Usage Data</h6>
+        Usage Data is data collected automatically (for example, the duration of
+        a page visit). I do not collect any usage data.
+        <br />
+        <h6 class="mt-4">Cookies</h6>
+        Cookies are small pieces of data stored on a User’s device. I do not use
+        cookies or similar tracking technologies to track your activity.
+        <h6 class="mt-4">Location Data</h6>
+        I do not use or store information about your location.
+      </div>
     </div>
-  </main>
-
-
-
-  <footer class="footer mt-auto text-center">
-    <div class="container">
-      <span class="text-dark">&copy <span id="year"></span> David Kelly. <a href="" class="text-dark"
-          data-bs-toggle="offcanvas" data-bs-target="#privacyPolicy" aria-controls="privacyPolicy">Privacy
-          Policy.</a></span>
-    </div>
-  </footer>
-
-  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="privacyPolicy" aria-labelledby="privacyPolicyLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasBottomLabel">Privacy Policy</h5>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body small">
-      <h6>Personal Data</h6>
-      While using this page, I will not ask you to provide any personal data or collect any personal data from you.
-      <br>
-      <h6 class="mt-4">Usage Data</h6>
-      Usage Data is data collected automatically (for example, the duration of a page visit).
-      I do not collect any usage data.
-      <br>
-      <h6 class="mt-4">Cookies</h6>
-      Cookies are small pieces of data stored on a User’s device.
-      I do not use cookies or similar tracking technologies to track your activity.
-      <h6 class="mt-4">Location Data</h6>
-      I do not use or store information about your location.
-    </div>
-  </div>
-
-
-</body>
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-
+  </body>
+  <script src="script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"
+  ></script>
 </html>
